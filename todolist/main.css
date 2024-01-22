@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form,
+span {
+    margin: auto;
+    width: 80%;
+    border: thin solid black;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+input[type=button],
+input[type=text] {
+    margin: 0.25rem;
+}
+
+select {
+    max-width: 150px;
+    margin: 0.25rem;
+}
+
+h3,
+h4,
+h5 {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.baslik {
+    display: block;
+    width: 80%;
+    line-height: 60px;
+    border: thin solid black;
+    margin: auto;
+    padding: 25px 0;
+    color: brown;
+    font-weight: bolder;
+}
+
+form>label {
+    border-right: thin solid rgb(28, 26, 26);
+    border-bottom: thin solid rgb(19, 18, 18);
+}
+
+li img {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.75rem;
+}
